@@ -12,5 +12,5 @@
   <!-- Ensure you have the Driver Binaries from https://developers.google.com/android/drivers -->
 
   <project path="device/snappautomotive/tangorpro_car" name="device-snappautomotive-tangorpro_car" remote="snappautomotive" revision="main" />
-  <project path="vendor/auto/embedded/products/tangorpro" name="vendor-auto-embedded-products-tangorpro" remote="snappautomotive" revision="main" />
+  <project path="vendor/auto/embedded/products/tangorpro_car" name="vendor-auto-embedded-products-tangorpro_car" remote="snappautomotive" revision="main" />
 </manifest>
