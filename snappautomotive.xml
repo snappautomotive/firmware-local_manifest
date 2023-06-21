@@ -11,6 +11,6 @@
   <!-- EXPERIMENTAL: Pixel Tablet -->
   <!-- Ensure you have the Driver Binaries from https://developers.google.com/android/drivers -->
 
-  <project path="device/snappautomotive/common" name="firmware-device_snappautomotive_common" remote="snappautomotive" />
-  <project path="device/snappautomotive/common" name="firmware-device_snappautomotive_common" remote="snappautomotive" />
+  <project path="device/snappautomotive/tangorpro_car" name="device-snappautomotive-tangorpro_car" remote="snappautomotive" />
+  <project path="vendor/auto/embedded/products/tangorpro" name="vendor-auto-embedded-products-tangorpro" remote="snappautomotive" />
 </manifest>
