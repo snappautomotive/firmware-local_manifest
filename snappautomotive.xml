@@ -5,6 +5,7 @@
   <!-- Snapp Automotive -->
 
   <project path="device/snappautomotive/common" name="firmware-device_snappautomotive_common" remote="snappautomotive" />  
-  <project path="device/snappautomotive/emulator" name="firmware-device_snappautomotive_emulator" remote="snappautomotive" revision="android-13" />
-  <project path="vendor/snappautomotive/packages/maps" name="firmware-vendor_snappautomotive_packages_maps" remote="snappautomotive" />
+  <project path="device/snappautomotive/emulator" name="firmware-device_snappautomotive_emulator" />
+  <project path="vendor/snappautomotive/packages/maps" name="firmware-vendor_snappautomotive_packages_maps" remote="snappautomotive" revision="main" />
+  <project path="vendor/snappautomotive/packages/aosp-template-host" name="firmware-vendor_snappautomotive_packages_aosp-template-host" remote="snappautomotive" revision="main" />
 </manifest>
