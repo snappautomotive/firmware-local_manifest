@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="snappautomotive" fetch="https://github.com/snappautomotive" revision="android12-release"/>
+  <remote name="snappautomotive" fetch="https://github.com/snappautomotive" revision="android-13"/>
 
   <!-- Snapp Automotive -->
 
