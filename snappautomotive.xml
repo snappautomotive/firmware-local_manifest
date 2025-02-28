@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="snappautomotive" fetch="https://github.com/snappautomotive" revision="main"/>
+  <remote name="snappautomotive-selfhosted" fetch="https://downloads.snappautomotive.com/git/" revision="main"/>
 
   <!-- Snapp Automotive -->
 
@@ -16,6 +17,6 @@
   <!-- Forked repo for devices without GPS (uses backported patch) -->
 
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="firmware-frameworks_base" groups="device,yukawa,pdk" remote="snappautomotive" revision="android-12-snapp-aaos" />
+  <project path="frameworks/base" name="firmware-frameworks_base" groups="device,yukawa,pdk" remote="snappautomotive-selfhosted" revision="android-12-snapp-aaos" />
 
 </manifest>
