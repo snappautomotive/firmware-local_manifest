@@ -10,9 +10,4 @@
   <project path="vendor/snappautomotive/packages/maps" name="firmware-vendor_snappautomotive_packages_maps" remote="snappautomotive" revision="android-15" />
   <project path="vendor/snappautomotive/packages/aosp-template-host" name="firmware-vendor_snappautomotive_packages_aosp-template-host" remote="snappautomotive" />
 
-  <!-- Forked repositories for the VIM3 -->
-
-  <remove-project name="device/amlogic/yukawa" />
-  <project path="device/amlogic/yukawa" name="device_amlogic_yukawa" groups="device,yukawa,pdk" remote="snappautomotive" revision="android-15-snapp-aaos" />
-
 </manifest>
